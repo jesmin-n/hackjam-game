@@ -1,9 +1,12 @@
 html {
+  background-image: url('wallpaper.jpg');
+  background-size: cover;
+  background-repeat: repeat;
   background-color: #AAF0D1;
 }
 
 body {
-  font-family: Sans-serif;
+  font-family: 'Open Sans', 'Sans Serif';
   max-width: 500px;
   margin: auto;
   padding: 20px;

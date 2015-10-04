@@ -1,14 +1,15 @@
 <html>
   <head>
-    <title>Hakker - better than Twitter</title>
+    <title>Kompetition - show your friends who's boss!</title>
 	<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300">
   </head>
   <body>
-    <h1>Hakker</h1>
+    <h1>Awesome Name Goes Here</h1>
 	<form action='/api/hakk' method="POST">
-		Name:
+		Game:
 		<input name="name" type="text" /> 
-		Hakk:
+		Winner:
 		<input name="hakk" type="text" maxlength="76" /> 
 		<input type="submit" />
 	</form>	
